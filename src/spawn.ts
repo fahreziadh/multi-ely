@@ -16,7 +16,7 @@ if(model.includes("Intel(R)")) {
     }
 }
 
-$.cwd(import.meta.dirname)
+$.cwd(import.meta.dir)
 for(let i = 0; i < cpu; i++){
     process.push($`NODE_ENV=production bun index.tsx`)
 }
