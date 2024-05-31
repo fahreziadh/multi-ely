@@ -3,6 +3,10 @@
   "version": "0.1",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/spawn.ts"
+  },
   "devDependencies": {
     "@kitajs/ts-html-plugin": "^1.3.4",
     "@types/bun": "latest"
