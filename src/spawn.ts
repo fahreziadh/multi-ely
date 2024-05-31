@@ -18,6 +18,7 @@ if(model.includes("Intel(R)")) {
 
 $.cwd(import.meta.dir)
 for(let i = 0; i < cpu; i++){
+    console.log(`Spawn process ${i + 1}`)
     process.push($`NODE_ENV=production bun index.tsx`)
 }
 
